@@ -1,0 +1,20 @@
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none;
+    z-index: 5000;
+  }
+
+  .snowflake {
+    position: fixed;
+    background-color: rgb(81, 255, 0);
+    user-select: none;
+    z-index: 1000;
+    pointer-events: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+
+  /* https://www.kirupa.com/html5/the_falling_snow_effect.htm */
